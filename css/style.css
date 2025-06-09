@@ -187,13 +187,13 @@ header  li {
 #hero4{
     width: 100%;
     height:500px ;
-    background-image: url(/images/bgdbk.png);
+    background-image: url(../images/bgdbk.png);
     
 }
 .background{
     width: 100%;
     height:500px ;
-    background-image: url(/images/bgdbk-2.png);
+    background-image: url(../images/bgdbk-2.png);
 }
 .Follow{
     height: 50%;
