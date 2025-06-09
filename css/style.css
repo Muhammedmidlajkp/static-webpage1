@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+@font-face {
+    font-family:'playfair_displayregular' ;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+#hero{
+    background-image: url(../images/herobg.png);  
+    background-size: cover;
+    background-repeat:no-repeat ; 
+    background-position:center;
+    height: 700px;
+    width: 100%;  
+
+}
+header{
+     position: fixed;
+     width: 100%;
+}
+
+header>div{
+    
+    background-color: black;
+    opacity: 0.5;
+    height: 35px;
+    
+   
+
+}
+header  div ul {
+    list-style-type: none;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    margin-right: 200px;
+  
+   
+    
+    
+}
+header  li {
+    color: #fff;
+    font-family: 'pt_sansregular';
+    padding: 10px;
+    font-size: 12px;
+    padding-top: 10px;
+}
+#hero>img{
+    margin-top: 40px;
+   margin-left: 20px;
+
+}
+#hero>h1{
+    color: white;
+    text-align: center;
+    font-family: 'pt_sansregular';
+    font-size: 50px;
+    margin-top: 380px;
+    font-weight: 100;
+}
+#hero1{
+    width: 100%;
+    height:300px ;
+    background-color: #fff;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.head>h1{
+    color: black;
+    font-family: 'playfair_displayregular';
+    font-size: 54px;
+    font-weight: 100;
+    margin-top: 0;
+
+}
+
+.para{
+    width: 50%;
+    height: 50%;
+    border-right: 1px solid black;
+    display: flex;
+    text-align: end;
+    align-items: flex-end;
+    padding-right: 10px;
+    flex-direction: column;
+    
+}
+.para>i{
+    margin-top: 70px;
+}
+.head{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+#hero2{
+    width: 100%;
+    height:600px ;
+    background-image: url(../images/hugbckd.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+
+}
+
+.images h1{
+    position: relative;
+    bottom: 180px;
+}
+#hero3{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display:flex ;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;
+
+}
+.images1{
+    width: 30%;
+    height: 100%;
+    display: block;
+}
+.images1>img{
+    width: 100%;
+    height: 100%;
+}
+.head1{
+    width: 50%;
+    height: 60%;
+}
+.headerh1{
+
+    width: 65%;
+    height: 45%;
+    position: relative;
+    left: 270px;
+
+
+}
+.headerh1>h1{
+    font-family: 'playfair_displayregular';
+    font-size: 54px;
+    font-weight: 100; 
+    border-left: 1px solid black ;
+    padding-left: 20px;
+    
+}
+.headerp{
+    width: 70%;
+    height: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+
+#hero4{
+    width: 100%;
+    height:500px ;
+    background-image: url(/images/bgdbk.png);
+    
+}
+.background{
+    width: 100%;
+    height:500px ;
+    background-image: url(/images/bgdbk-2.png);
+}
+.Follow{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Follow>h6{
+    font-family: 'playfair_displayregular';
+    font-size: 32px;
+    color: white;
+    font-weight: 100;
+}
+.icon{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+          
+}
+.iconinsta,.iconfb{
+    height: 100px;
+    width: 100px;
+    border: 10px solid white;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.iconinsta:hover,.iconfb:hover{
+
+    border-radius: 20px;
+    opacity: .5;
+
+}
+#hero5{
+
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+.icon2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.navmenu{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu{
+    list-style: none;
+    font-family: 'pt_sansregular';    
+    font-weight: 100;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+
+}
+.pl{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: red;
+
+}
+
+footer p{
+    font-family: 'pt_sansregular';    
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 20px;
+
+   
+}
